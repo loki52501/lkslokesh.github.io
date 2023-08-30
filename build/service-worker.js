@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/lkslokesh.github.io/precache-manifest.757512551d56606f1131adbb356bd02c.js"
+  "/loki52501.github.io/precache-manifest.6db3156a35e7afd18dd7e642f986fe8f.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/lkslokesh.github.io/index.html", {
+workbox.routing.registerNavigationRoute("/loki52501.github.io/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
