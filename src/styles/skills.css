@@ -1,0 +1,64 @@
+/* skills.css */
+.skills-section {
+    padding: 5rem;
+    background-color: #f2f2f2;
+  }
+  
+  .skills-heading {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #333;
+  }
+  
+  .skills-table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  table {
+    width: 80%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  tr {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .skill-item {
+    padding: 1.5rem;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  /* Media Query for Phones */
+  @media (max-width: 767px) {
+    .skills-section {
+      padding: 2rem;
+    }
+  
+    .skills-heading {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+  
+    .skills-table {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    table {
+      width: 90%; /* Adjust width for smaller screens */
+    }
+  
+    .skill-item {
+      padding: 1rem; /* Adjust padding */
+      font-size: 1rem; /* Adjust font size */
+    }
+  }
+  

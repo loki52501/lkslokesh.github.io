@@ -1,0 +1,314 @@
+/* src/styles/main.css */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+
+  .footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #3498db;
+    color: #fff;
+  }
+  .social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem; /* Add spacing between icons and text */
+  }
+  
+  .social-links a {
+    margin: 0 0.5rem; /* Adjust spacing between icons */
+  }
+
+  /* header */
+  .header {
+    text-align: center;
+    background-color: #3498db;
+    color: #fff;
+    padding: 4rem 0;
+  }
+  
+  .hero {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .cta-button {
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    background-color: #2ecc71;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .resume-link {
+    display: inline-block;
+    margin-top: 1rem;
+    text-decoration: none;
+    color: #fff;
+    background-color: #3498db;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .resume-link:hover {
+    background-color: #2980b9;
+  }
+
+
+
+  .image-container {
+    text-align: center;
+    margin-top: 2rem; /* Increase the margin for better spacing */
+  } 
+  
+  .profile-image {
+    width: 150px;
+    height: 130px;
+    border-radius: 10%;
+    border: 4px solid #3498db; /* Add a border with your accent color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    transition: transform 0.3s, border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .profile-image:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    border-color: #2980b9; /* Darker border color on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Slightly stronger shadow on hover */
+  }
+  /*about .js*/
+  .about-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem;
+    background-color: #f2f2f2;
+  }
+  
+  .about-content {
+    flex: 1;
+    margin-right: 4rem;
+  }
+  
+  .about-heading {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  .about-description {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  .interests-section {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .interests-heading {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  .interests-list {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .interest-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .interest-icon {
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+    margin-bottom: 1rem;
+  }
+  
+.icon-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+  
+  .icon {
+    text-align: center;
+    margin: 0 2rem;
+    flex: 1;
+    opacity: 0; /* Initially hidden */
+    transform: translateY(20px);
+    transition: opacity 0.5s, transform 0.5s;
+  }
+  
+  .icon.animated {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  
+  .icon h3 {
+    margin-top: 1rem;
+    font-size: 1.3rem;
+  }
+  
+    @media (max-width: 767px) {
+        .about-section {
+            display: block; /* Stack content on mobile */
+            padding: 2rem; /* Adjust padding for better spacing on mobile */
+          }
+          
+          .about-content {
+            margin-right: 0; /* Reset margin on mobile */
+          }
+          
+          .about-heading {
+            font-size: 2rem; /* Decrease font size on mobile */
+            margin-bottom: 1rem; /* Decrease margin for spacing */
+          }
+          
+          .about-description {
+            font-size: 1rem; /* Decrease font size on mobile */
+            margin-bottom: 1.5rem; /* Decrease margin for spacing */
+          }
+          
+          .interests-section {
+            text-align: center; /* Center align on mobile */
+            margin-top: 2rem; /* Adjust margin for spacing */
+          }
+          
+          .interests-heading {
+            font-size: 1.5rem; /* Decrease font size on mobile */
+            margin-bottom: 1rem; /* Decrease margin for spacing */
+          }
+          
+          .interests-list {
+            flex-direction: column; /* Stack items vertically on mobile */
+            align-items: center; /* Center align items on mobile */
+          }
+          
+          .interest-item {
+            margin-bottom: 1rem; /* Adjust margin for spacing */
+          }
+          
+          .interest-icon {
+            width: 60px; /* Decrease icon size on mobile */
+            height: 60px; /* Decrease icon size on mobile */
+            margin-bottom: 0.5rem; /* Decrease margin for spacing */
+          }
+          
+          .icon-list {
+            margin-top: 2rem; /* Adjust margin for spacing */
+          }
+          
+          .icon {
+            margin: 1rem 0; /* Adjust margin for spacing */
+          }
+      .footer {
+        padding: 1rem 0; 
+       /* Increase padding for better spacing on phones */
+      }
+
+      .header {
+        padding: 2rem 0; /* Increase padding for better spacing on phones */
+      }
+    
+      .hero h1 {
+        font-size: 2.5rem; /* Decrease font size on phones */
+        margin-bottom: 0.5rem; /* Decrease margin for spacing */
+      }
+    
+      .hero p {
+        font-size: 1.2rem; /* Decrease font size on phones */
+        margin-bottom: 1rem; /* Decrease margin for spacing */
+      }
+    
+      .cta-button {
+        font-size: 1rem; /* Decrease font size on phones */
+        padding: 0.3rem 0.8rem; /* Adjust padding for button on phones */
+      }
+      
+      .resume-link {
+        margin-top: 0.5rem; /* Decrease margin for spacing */
+        padding: 0.3rem 0.8rem; /* Adjust padding for link on phones */
+      }
+  }
+  
+  /* skills */
+.skill-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+  }
+  
+  .skill-list li {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* jiggling.css */
+.jiggle-effect {
+    animation: jiggle 1s infinite;
+  }
+  
+  @keyframes jiggle {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-5px);
+    }
+    75% {
+      transform: translateX(5px);
+    }
+  }
+  .name-container {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .name {
+    display: inline-block;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .name-container:hover .name {
+    animation: bounce 0.5s;
+    animation-iteration-count: 2;
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }

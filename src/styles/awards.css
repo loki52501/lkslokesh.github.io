@@ -1,0 +1,94 @@
+/* awards.css */
+.awards-section {
+    padding: 5rem;
+    background-color: #fff;
+  }
+  
+  .awards-heading {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #333;
+  }
+  
+  .awards-slider {
+    display: flex;
+    overflow-x: hidden;
+    transition: transform 0.5s;
+  }
+  
+  .award-item {
+    flex: 0 0 100%;
+    min-width: 100%;
+    background-color: #f2f2f2;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-size: cover;
+    transition: opacity 0.5s;
+    opacity: 0.5;
+  }
+  
+  .award-item.active {
+    flex: 0 0 70%;
+    min-width: 70%;
+    opacity: 1;
+  }
+  
+  .award-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .award-item p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .award-item button {
+    background-color: #3498db;
+    border: none;
+    padding: 0.5rem 1rem;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  .award-item button:hover {
+    background-color: #2980b9;
+  }
+  @media (max-width: 767px) {
+    .awards-section {
+      padding: 2rem;
+    }
+  
+    .awards-heading {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+  
+    .award-item {
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      opacity: 1;
+    }
+  
+    .award-item h3 {
+      font-size: 1.3rem;
+      margin-bottom: 0.5rem;
+    }
+  
+    .award-item p {
+      font-size: 1rem;
+    }
+  
+    .award-item button {
+      padding: 0.3rem 0.8rem;
+      font-size: 0.9rem;
+    }
+  }
