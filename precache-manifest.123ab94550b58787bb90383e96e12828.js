@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "52035194c6ad14405b35",
+    "revision": "445ea0e8537a8efe01fe",
     "url": "/loki52501.github.io/static/css/main.611c4aeb.chunk.css"
   },
   {
-    "revision": "52035194c6ad14405b35",
-    "url": "/loki52501.github.io/static/js/main.52035194.chunk.js"
+    "revision": "445ea0e8537a8efe01fe",
+    "url": "/loki52501.github.io/static/js/main.445ea0e8.chunk.js"
   },
   {
     "revision": "a133a98df0e98e22bc65",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/loki52501.github.io/static/js/runtime~main.03ce2a19.js"
   },
   {
-    "revision": "cfdeb1333a1b7772c9ef79f40105b724",
+    "revision": "d743e29ef4ab9f698820ffe276fabafb",
     "url": "/loki52501.github.io/index.html"
   }
 ];
