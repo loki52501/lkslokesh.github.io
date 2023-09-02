@@ -8,7 +8,7 @@ const Awards = () => {
   const awards = [
     {
       title: 'First Prize at NIT Tirichy’s Blockchain  Workshop',
-      description: 'Used Spreadsheet to integrate with Covalent API(A NFT information platform).',
+      description: "Used Spreadsheet to integrate with Covalent API(A NFT information platform).",
       image: 'award1.jpg'
     }
   ];
