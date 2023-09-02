@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/loki52501.github.io/precache-manifest.cd0864145c2d3a754af0029cf58d8a64.js"
+  "/loki52501.github.io/precache-manifest.6ecf303575d68838b0eb4b78d3ffdd25.js"
 );
 
 workbox.clientsClaim();
