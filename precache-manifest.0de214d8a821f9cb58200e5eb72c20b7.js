@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/loki52501.github.io/static/js/runtime~main.03ce2a19.js"
   },
   {
-    "revision": "13eb87cf7b584b1f49196cc757cb2761",
+    "revision": "28c6210e91f9238f0078a7f8fb1f3354",
     "url": "/loki52501.github.io/index.html"
   }
 ];
