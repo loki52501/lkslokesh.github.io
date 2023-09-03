@@ -13,7 +13,7 @@ const Header = () => {
     
         <div className="intro-container">
         <p>Passionate about Quantum Computing, Blockchain, and Cybersecurity! However I am a Data Scientist at Heart.</p>
-        <a href="https://drive.google.com/file/d/1dWjAh_xqy4sMYuLFGSwkez4IEX5ElGti/view?usp=drive_link" download className="resume-link">
+        <a href="https://drive.google.com/file/d/12khX_7tO6CP5Dbno9C5HZBtramxGiQ6J/view?usp=sharing" download className="resume-link">
           Download Resume <Download />
         </a>
         </div>
